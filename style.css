@@ -1,0 +1,29 @@
+.pink,
+.blue,
+.green {
+    position: absolute;
+}
+
+.blue {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    z-index: 3;
+    top: 100px;
+    left: 125px;
+}
+
+.pink {
+    background-color: deeppink;
+    width: 200px;
+    height: 200px;
+}
+
+.green {
+    z-index: 2;
+    top: 200px;
+    left: 250px;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
